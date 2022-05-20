@@ -3,12 +3,25 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.phptravelsnew.scripts.CustomerFrontEndTestClass">
+      <class name="com.phptravelsnew.scripts.TotalTestClass">
         <methods>
           <include name="onSetup"/>
+          <include name="VerifyAgentFrontLogout"/>
+          <include name="VerifyAfLoginpage"/>
+          <include name="Delete_Record"/>
+          <include name="Test_bookingslink"/>
+          <include name="VerifyAfAddfund"/>
+          <include name="Display_Invoice"/>
+          <include name="BookingStatus_Change"/>
+          <include name="VerifyAdminlogin"/>
+          <include name="VerifyAfMyprofile"/>
+          <include name="VerifyCfMybooking"/>
+          <include name="test_websiteLink"/>
           <include name="VerifyCfMyprofile"/>
+          <include name="VerifyAfMybooking"/>
+          <include name="VerifyAdminLogout"/>
         </methods>
-      </class> <!-- com.phptravelsnew.scripts.CustomerFrontEndTestClass -->
+      </class> <!-- com.phptravelsnew.scripts.TotalTestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
